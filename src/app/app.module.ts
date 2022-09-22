@@ -3,10 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { FechasPipe } from './libs/fechas.pipe';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    FechasPipe
   ],
   imports: [
     BrowserModule,
